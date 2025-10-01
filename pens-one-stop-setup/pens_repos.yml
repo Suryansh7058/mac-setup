@@ -1,0 +1,29 @@
+projects:
+  ABC:
+    - abc-commerce-baseline-terraform
+
+  SRE:
+    - aws-np-devops-baseline-terraform
+    - sox-automation
+    - gma-automation-api
+    - jarvis-api
+    - create-application-automation
+    - core-governance-registry
+    - custom-merge-checks
+    - sre-terraform-modules
+    - pens.com-redirection
+
+  DATA PLATFORM:
+    - aws-npdataplatform-baseline-terraform
+
+  DATA SCIENCE:
+    - aws-np-datascience-baseline-terraform
+
+  PHONESYSTEMS:
+    - aws-npphonesystem-baseline-terraform
+
+  INFRASTRUCTURE:
+    - np-infra-aws-aps-baseline-terraform
+
+  GOLDSTAR:
+    - aws-npgoldstar-baseline-terraform
