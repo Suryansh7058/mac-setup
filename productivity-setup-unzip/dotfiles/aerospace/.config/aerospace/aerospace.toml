@@ -16,6 +16,12 @@ after-startup-command = []
 
 # Start AeroSpace at login
 start-at-login = true
+after-startup-command = [
+  "reload-config",
+  "exec-and-forget open -a WezTerm",
+  "exec-and-forget open -a Google Chrome",
+  "exec-and-forget open -a Cursor"
+]
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
