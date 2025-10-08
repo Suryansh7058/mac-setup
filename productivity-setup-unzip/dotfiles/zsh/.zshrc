@@ -5,9 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Load Git aliases
-[ -f "$HOME/.config/zsh/git-aliases.zsh" ] && source "$HOME/.config/zsh/git-aliases.zsh"
-
 # Any other productivity configs…
 export PATH="$HOME/bin:$PATH"
 
@@ -89,7 +86,8 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+# Load Git aliases
+[ -f "$HOME/.config/zsh/git-aliases.zsh" ] && source "$HOME/.config/zsh/git-aliases.zsh"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
