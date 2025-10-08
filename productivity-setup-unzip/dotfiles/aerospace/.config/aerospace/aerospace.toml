@@ -202,3 +202,7 @@ run = "move-node-to-workspace V"
 if.app-id = 'com.apple.finder'
 run = "move-node-to-workspace 9"
 
+[[on-window-detected]]
+if.app-id = 'com.openai.chat'
+run = "move-node-to-workspace C"
+
